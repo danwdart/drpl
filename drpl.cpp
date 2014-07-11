@@ -8,6 +8,9 @@ char *stackstrings[1024];
 int sp;
 
 int main(int argc, char *argv[]) {
+
+	sp = 0;
+
 	ifstream file;
 	file.open (argv[1]);
 	if (!file.is_open()) {
