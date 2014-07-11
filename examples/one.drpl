@@ -1,0 +1,6 @@
+Dan fname sto
+Dart lname sto
+lname get ` ` fname get 3 out
+`welcomes you` out
+process argv get out
+# schweet
