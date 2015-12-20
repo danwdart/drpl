@@ -19,6 +19,14 @@ s swap: Pops two any, pushes in reverse order.
 j jump: may not be needed since we want it more functional
 l loop: may or may not be a macro depending on 
 
+If labels and gotos are necessary, probably it'll be:
+labelname:
+0 @labelname jne (jump if not equal)
+
+Example:
+
+100 c 1 w l: BOBOTW 1 w c 1 w BOB 1 w TODAPIA 1 w - c 1 w 1 @l jne
+
 Macros
 
 p print: 1 w
