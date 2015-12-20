@@ -1,0 +1,31 @@
+Dan's Reverse Polish Language
+
+Aims to have as few commands as possible with macros to extend.
+Stack based.
+
+Considerations: A read only stack or a preinitialised stack. Maybe needs return codes.
+
+Commands
+w write: Pops fd, string. Pushes nothing.
+r read: Pops fd, string. Pushes nothing.
+b blocking-read: Pops fd, string. Pushes nothing.
+c copy: Pops any, Pushes two any.
++ add: Pops two numbers, pushes one.
+- sub: Pops two numbers, pushes one.
+* mul: Pops two numbers, pushes one.
+/ div: Pops two numbers, pushes one (dies horribly if #2 is 0).
+f func: May define a function or macro somehow later.
+s swap: Pops two any, pushes in reverse order.
+j jump: may not be needed since we want it more functional
+l loop: may or may not be a macro depending on 
+
+Macros
+
+p print: 1 w
+i input: 0 b
+l loop: something like je e 0 - e; which would require asm's je
+but we might not do jumping hmm...
+
+Kopywrong (K) Dan Dart
+All rites reversed.
+Multi licenced under WTFPL/Public Domain/CC-0/whatever works in your jurisdiction to let you do wnat you want.
