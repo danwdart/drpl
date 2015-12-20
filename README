@@ -34,6 +34,10 @@ i input: 0 b
 l loop: something like je e 0 - e; which would require asm's je
 but we might not do jumping hmm...
 
+Disclaimer:
+
+I may have just reinvented Forth. But it's fun.
+
 Kopywrong (K) Dan Dart
 All rites reversed.
 Multi licenced under WTFPL/Public Domain/CC-0/whatever works in your jurisdiction to let you do wnat you want.
