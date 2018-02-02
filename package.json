@@ -1,0 +1,36 @@
+{
+  "name": "drpl",
+  "version": "1.0.0",
+  "description": "Dan's Reverse Polish Language",
+  "main": "index.mjs",
+  "bin": {
+      "drpl": "drpl"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "drpl": "./drpl",
+    "example": "./drpl examples/test.drpl",
+    "test": "eslint index.mjs lib/*.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danwdart/drpl.git"
+  },
+  "keywords": [
+    "reverse",
+    "polish",
+    "language"
+  ],
+  "author": "Dan Dart <npm@dandart.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danwdart/drpl/issues"
+  },
+  "homepage": "https://github.com/danwdart/drpl#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  }
+}
