@@ -2,4 +2,4 @@
 NODE=$(which node)
 ARGS=--experimental-modules
 
-exec $NODE $ARGS lib/drpl.mjs $@
+exec $NODE $ARGS lib/index.mjs $@
