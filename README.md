@@ -1,5 +1,7 @@
 # Dan's Reverse Polish Language
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/danwdart/drpl.svg)](https://greenkeeper.io/)
+
 ## Running
 
 `npm run example` will run an example
