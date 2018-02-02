@@ -1,0 +1,14 @@
+"Hello, I am a program." 1 w
+"I am echoing to stderr." 2 w
+100 c 1 w
+BOB 1 w
+c 1 w
+BOB 1 w
+JIM c 1 w
+JIM + 1 w
+2 22 - c 1 w
+1 1 + 1 + 1 w
++
+` was written to stderr` s + 2 w
+"This should be red." red fg col + 1 w
+"This should not." rst set col + 1 w
