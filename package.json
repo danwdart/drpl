@@ -4,7 +4,7 @@
   "description": "Dan's Reverse Polish Language",
   "main": "index.mjs",
   "bin": {
-      "drpl": "drpl"
+    "drpl": "drpl"
   },
   "directories": {
     "example": "examples",
@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/danwdart/drpl#readme",
   "devDependencies": {
-    "eslint": "^4.16.0"
+    "eslint": "^4.18.0"
   }
 }
