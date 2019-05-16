@@ -13,7 +13,7 @@
   "scripts": {
     "drpl": "./drpl",
     "example": "./drpl examples/test.drpl",
-    "test": "eslint index.mjs lib/*.mjs"
+    "test": "eslint lib/*.mjs"
   },
   "repository": {
     "type": "git",
