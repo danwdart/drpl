@@ -13,7 +13,9 @@
   "scripts": {
     "drpl": "./drpl",
     "example": "./drpl examples/test.drpl",
-    "test": "eslint lib/*.mjs"
+    "test": "eslint lib/*.mjs",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,5 +34,9 @@
   "homepage": "https://github.com/danwdart/drpl#readme",
   "devDependencies": {
     "eslint": "^6.0.0"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.189.0"
   }
 }
