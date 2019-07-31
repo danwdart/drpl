@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/danwdart/drpl#readme",
   "devDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^6.1.0"
   }
 }
