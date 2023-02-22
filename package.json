@@ -32,5 +32,8 @@
   "homepage": "https://github.com/danwdart/drpl#readme",
   "devDependencies": {
     "eslint": "^8.34.0"
+  },
+  "dependencies": {
+    "@snyk/protect": "^1.1108.0"
   }
 }
